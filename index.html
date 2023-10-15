@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Below where it says "body" is where I change the font and background color -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-color: #94c5d3;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<head>
+    <title>My Form</title>
+    <style>
+        body{
+            color: white;
+        }
+    </style>
+<head>
+<body>
+    <h1>UEFW Organazation</h1>
+    <p>UAE Events For Workers: We are an organization that aims to promote representation of the workers in Dubai. We do this by promoting the facilitation of events.
+        <br>
+        We recognize that there may be times when the workers of Dubai may feel underrepresented so we are aiming to help by providing a platform that allows for easy access to events. </p>
+</body>
+</head>
+<head>
+    <img src="html_test_pic.JPG" height="650" style="float:right">
+</head>
+<body>
+    <!-- Start of the form -->
+    <form action="https://formsubmit.co/saadalitkd@gmail.com" method="POST">
+        <!-- Name Input -->
+        <div>
+            <b>
+            <br><br><br><br><br><br>
+            <label for="name">Name</label>
+            <input type="text" name= "name" id="name" placeholder="Enter your name here" required>
+        </b>
+
+        </div>
+        
+        <!-- Email Input -->
+        <div>
+            <b>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="ex. johndoe@gmail.com" required>
+        </b>
+        </div>
+        
+        <!-- Phone Number Input -->
+        <div>
+            <b>
+            <br>
+            <label for="phone number">Phone Number</label>
+            <input type="tel" name="phone number" id="phone number" required>
+        </b>
+        </div>
+        
+        <!-- Birthdate Input -->
+        <div>
+            <b>
+            <br>
+            <label for="date">Birthdate</label>
+            <input type="date" name="date" id="date" required>
+        </b>
+        </div>
+        
+        <!-- Age Input -->
+        <div>
+            <b>
+            <br>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="1" max="115" required>
+        </b>
+        </div>
+        
+        <!-- Where are you from Input -->
+        <div>
+            <b>
+            <br>
+            <label for="Where are you from">Where are you from?</label>
+            <input type="text" name="Where are you from?" id="Where are you from?">
+        </b>
+        </div>
+        
+        <!-- Favorite Films Input -->
+        <div>
+            <b>
+            <br>
+            <label for="What are your favorite films?">What are your favorite films?</label>
+            <input type="text" name="What are your favorite films?" id="What are your favorite films?">
+        </b>
+        </div>
+        
+        <!-- Favorite Songs Input -->
+        <div>
+            <b>
+            <br>
+            <label for="What are your favorite songs?">What are your favorite songs?</label>
+            <input type="text" name="What are your favorite songs?" id="What are your favorite songs?">
+        </b>
+        </div>
+        
+        <!-- Sports/Games Dropdown Input -->
+        <div>
+            <b>
+            <br>
+            <label for="What sports/games do you like to play (dropdown menu)?">What sports/games do you like to play (dropdown menu)?</label>
+            <select name="What sports/games do you like to play?" id="What sports/games do you like to play (dropdown menu)?">
+                <option value="">Select an option</option> 
+                <option value="Cricket">Cricket</option>
+                <option value="Football">Football</option>
+                <option value="Badminton">Badminton</option>
+                <option value="Boardgames (chess, monopoly etc.)">Boardgames (chess, monopoly etc.)</option>
+            </select>
+        </b>
+        </div>
+        
+        <!-- Gender Input -->
+        <div>
+            <b>
+            <br>
+            <label>Gender:</label>
+        </b>
+            <div>
+                <label for="male">Male</label> 
+                <input type="radio" name="gender:" id="Male" value="male">
+            </div>
+            <div>
+                <label for="female">Female</label> 
+                <input type="radio" name="gender" id="Female" value="female">
+            </div>
+    
+        </div>
+        
+        <!-- Reset and Submit Buttons -->
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        
+    </form>
+    <!-- End of the form -->
+</body>
+</html>
